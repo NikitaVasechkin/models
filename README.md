@@ -4,7 +4,7 @@ The CNN model based on pretrained **resnet50** with all layers freezed
 except the FC layer that classifies people in photo into female or male category 
 
 Original idea was to create a model that classifies photos based on the ammount of likes they get
-if posted to *Subscriber of the day* category of vk page *vk.com/iate_atomohod*
+if posted to *Subscriber of the day* category on vk page *vk.com/iate_atomohod*
 
 The dataset was formed based on data collected from the forementioned *webpage*
 Whole dataset consists of 2666 pictures (train/test - 2132/534) with people in it, all with various dimensions and different kinds of noise.
