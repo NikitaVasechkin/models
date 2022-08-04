@@ -26,8 +26,6 @@ def get_id(text: str):
     else:
         return prompt
 
-
-token = '4cf7394e4cf7394e4cf7394e9d4c80132844cf74cf7394e2c93ee5405f6ac620e8375b7'
 session = vk.Session(access_token=token)
 vk_api = vk.API(session, v=5.131)
 folder = "./data"
